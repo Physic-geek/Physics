@@ -1,7 +1,7 @@
 import streamlit as st
 import math
 from PIL import Image
-st.markdown("<h1 style = 'text-align: center>PHYSICS</h1>")
+st.markdown("<h1 style = 'text-align: center>PHYSICS</h1>",unsafe_html_allow = TRUE)
 #st.header("***Not only is the Universe stranger than we think, it is stranger than we can think...***")
 tab1,tab2,tab3,tab4= st.tabs(['RESISTOR COLOR CODE CALCULATOR','NUMBER CONVERSION','OHMS LAW','CONSTANTS'])
 with tab1:
